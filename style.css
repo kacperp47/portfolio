@@ -55,3 +55,49 @@ nav ul a {
     color: #432818;
     text-decoration: none;
 }
+
+#about {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    color: #bb9457;
+}
+
+.about-info {
+    flex: 1;
+    background-color: #99582a;
+    padding: 25px;
+}
+
+.about-info div {
+    margin-bottom: 15px;
+}
+
+.about-info strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.about-info span {
+    color: #ffe6a7;
+}
