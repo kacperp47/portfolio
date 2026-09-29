@@ -101,3 +101,38 @@ nav ul a {
 .about-info span {
     color: #ffe6a7;
 }
+
+#skills {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    flex: 1;
+    min-width: 200px;
+    padding: 25px;
+    background-color: #6f1d1b;
+    border: 2px solid #bb9457;
+}
+
+.skill h3 {
+    color: #ffe6a7;
+    margin-top: 0;
+}
+
+.skill p {
+    line-height: 1.5;
+}
