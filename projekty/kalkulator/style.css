@@ -1,0 +1,13 @@
+body {
+    background-color: #432818;
+    color: #ffe6a7;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #6f1d1b;
+    text-align: center;
+}
