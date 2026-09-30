@@ -5,9 +5,33 @@ body {
 }
 
 .calculator {
-    width: 300px;
-    margin: 100px auto;
-    padding: 30px;
+    width: 350px;
+    height: 300px;
+    margin: 80px auto;
+    padding: 20px;
     background-color: #6f1d1b;
     text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    background-color: #bb9457;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #99582a;
 }
