@@ -136,3 +136,53 @@ nav ul a {
 .skill p {
     line-height: 1.5;
 }
+
+#projects {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    min-width: 250px;
+    padding: 25px;
+    background-color: #6f1d1b;
+    border: 2px solid #bb9457;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #ffe6a7;
+}
+
+.project p {
+    line-height: 1.6;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #bb9457;
+    color: #432818;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project a:hover {
+    background-color: #ffe6a7;
+}
