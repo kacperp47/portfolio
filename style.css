@@ -225,3 +225,15 @@ nav ul a {
 .contact-links a:hover {
     background-color: #ffe6a7;
 }
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #6f1d1b;
+    text-align: center;
+    border-top: 2px solid #bb9457;
+}
+
+footer p {
+    margin: 0;
+}
