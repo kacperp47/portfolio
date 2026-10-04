@@ -237,3 +237,21 @@ footer {
 footer p {
     margin: 0;
 }
+
+#more-info {
+    display: none;
+}
+
+#more-button {
+    padding: 10px 18px;
+    background-color: #bb9457;
+    color: #432818;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#more-button:hover {
+    background-color: #ffe6a7;
+}
