@@ -3,11 +3,13 @@ body {
     background-color: #432818;
     color: #ffe6a7;
     font-family: Arial, sans-serif;
+    line-height: 1.5;
 }
 
 header {
     background-color: #6f1d1b;
-    padding: 20px;
+    padding: 12px 25px;
+    border-bottom: 1px solid #bb9457;
 }
 
 nav {
@@ -19,32 +21,40 @@ nav {
 .logo {
     color: #ffe6a7;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 nav ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul a {
     color: #ffe6a7;
     text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul a:hover {
+    color: #bb9457;
 }
 
 #home {
-    padding: 100px 20px;
+    padding: 90px 20px;
     text-align: center;
 }
 
 #home h1 {
     font-size: 40px;
+    margin-bottom: 15px;
 }
 
 #home p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #home a {
@@ -54,6 +64,11 @@ nav ul a {
     background-color: #bb9457;
     color: #432818;
     text-decoration: none;
+    border-radius: 6px;
+}
+
+#home a:hover {
+    background-color: #ffe6a7;
 }
 
 #about {
@@ -64,7 +79,7 @@ nav ul a {
 
 #about h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -79,7 +94,7 @@ nav ul a {
 }
 
 .about-text h3 {
-    font-size: 24px;
+    font-size: 25px;
     color: #bb9457;
 }
 
@@ -87,6 +102,7 @@ nav ul a {
     flex: 1;
     background-color: #99582a;
     padding: 25px;
+    border-radius: 10px;
 }
 
 .about-info div {
@@ -102,6 +118,24 @@ nav ul a {
     color: #ffe6a7;
 }
 
+#more-info {
+    display: none;
+}
+
+#more-button {
+    padding: 10px 20px;
+    background-color: #bb9457;
+    color: #432818;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#more-button:hover {
+    background-color: #ffe6a7;
+}
+
 #skills {
     padding: 70px 20px;
     max-width: 1000px;
@@ -110,7 +144,7 @@ nav ul a {
 
 #skills h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -125,7 +159,13 @@ nav ul a {
     min-width: 200px;
     padding: 25px;
     background-color: #6f1d1b;
-    border: 2px solid #bb9457;
+    border: 1px solid #bb9457;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.skill:hover {
+    transform: translateY(-4px);
 }
 
 .skill h3 {
@@ -145,7 +185,7 @@ nav ul a {
 
 #projects h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -160,8 +200,13 @@ nav ul a {
     min-width: 250px;
     padding: 25px;
     background-color: #6f1d1b;
-    border: 2px solid #bb9457;
+    border: 1px solid #bb9457;
     border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-4px);
 }
 
 .project h3 {
@@ -170,7 +215,7 @@ nav ul a {
 }
 
 .project p {
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .project a {
@@ -202,9 +247,13 @@ nav ul a {
 .contact-content {
     padding: 30px;
     background-color: #6f1d1b;
-    border: 2px solid #bb9457;
+    border: 1px solid #bb9457;
     border-radius: 10px;
     text-align: center;
+}
+
+.contact-content p {
+    line-height: 1.5;
 }
 
 .contact-links {
@@ -231,27 +280,9 @@ footer {
     padding: 25px;
     background-color: #6f1d1b;
     text-align: center;
-    border-top: 2px solid #bb9457;
+    border-top: 1px solid #bb9457;
 }
 
 footer p {
     margin: 0;
-}
-
-#more-info {
-    display: none;
-}
-
-#more-button {
-    padding: 10px 18px;
-    background-color: #bb9457;
-    color: #432818;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-#more-button:hover {
-    background-color: #ffe6a7;
 }
